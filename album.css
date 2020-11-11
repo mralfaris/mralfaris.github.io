@@ -1,0 +1,98 @@
+legend {
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.form-tbl {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: seashell;
+}
+
+.btns-tbl {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: seashell;
+}
+
+.songs-tbl {
+    width: 100%;
+    background-color: seashell;
+    text-align: center;
+    border-width: 2px;
+    border-color: seashell;
+    border-style: solid;
+}
+
+.album-tbl {
+    background-color: seashell;
+}
+
+.search-btn {
+    background-color: #3393FF;
+    color: white;
+    height: 45px;
+    width: 150px;
+    padding: 15px 15px;
+}
+
+.download-btn {
+    background-color: #3393FF;
+    color: white;
+    height: 50px;
+    width: 100px;
+    padding: 15px 15px;
+}
+
+.div-center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+input {
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    width: 350px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 20px;
+    height: 35px;
+    padding: 12px;
+    border: 1px solid #adadad;
+    border-radius: 2px;
+}
+
+label {
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    font-weight: bold;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 20px;
+    height: 48px;
+    padding: 12px;
+    display: block;
+}
+
+th {
+    background-color: #3393FF;
+}
+
+#songs tr:nth-child(even) {
+    background-color: #F1E7EE;
+}
+
+div {
+    padding: 15px;
+}
