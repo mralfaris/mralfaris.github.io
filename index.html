@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Music Box</title>
+    <link rel="stylesheet" href="album.css" />
+</head>
+
+<body>
+    <fieldset>
+        <legend>Music Search</legend>
+        <div>
+            <form>
+                <table class="form-tbl">
+                    <tbody>
+                        <tr>
+                            <td><label>Artist:</label></td>
+                            <td><input type="text" id="artist" placeholder="Enter the Artist Name"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><label>Song:</label></td>
+                            <td><input type="text" id="song" placeholder="Enter the Song Title"></td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td><label>Album:</label></td>
+                            <td><input type="text" id="album" placeholder="Enter the Album name"></td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td><label>Genre:</label></td>
+                            <td><input type="text" id="genre" placeholder="Select a Genre" list="musicGenre"></input>
+                                <datalist id="musicGenre">
+                                    <option value="Pop">
+                                    <option value="Rock">
+                                    <option value="Country">
+                                    <option value="Jazz">                                        
+                                    <option value="Other">
+                                </datalist>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="btns-tbl">
+                    <tr>
+                        <td><button class="search-btn" id="searchBtn">Search</button></td>
+                        <td><button class="search-btn" id="resetBtn">Reset</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+        <div id="fav-albums-area" class="div-center">
+            <table id="albums" class="album-tbl">
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="results-area">
+            <table id="songs" class="songs-tbl">
+                <thead>
+                    <tr>
+                        <th>Artist</th>
+                        <th>Song</th>
+                        <th>Time</th>
+                        <th>Album</th>
+                        <th>Rating</th>
+                        <th>Genre</th>
+                        <th><label></label></th>
+                        <th><label></label></th>
+                    </tr>
+                </thead>
+                <tbody id="songsBody">
+                </tbody>
+            </table>
+        </div>
+    </fieldset>
+    <script src="album.js"></script>
+</body>
+
+</html>
