@@ -17,7 +17,11 @@ let data = [
     {"artist": "Nubya Garcia", "song": "Pace", "album": "Source", "genre": "Jazz", "time": "4:43", "rating": "4", "albumId": "4"},
     {"artist": "Nubya Garcia", "song": "The message continues", "album": "Source", "genre": "Rock", "time": "3:36", "rating": "5", "albumId": "4"},
     {"artist": "Nubya Garcia", "song": "Source", "album": "Source", "genre": "Pop", "time": "3:20", "rating": "3", "albumId": "4"},
-    {"artist": "Nubya Garcia", "song": "Boundless Beings", "album": "Source", "genre": "Other", "time": "3:49", "rating": "4", "albumId": "4"}
+    {"artist": "Nubya Garcia", "song": "Boundless Beings", "album": "Get Up", "genre": "Other", "time": "3:49", "rating": "4", "albumId": "4"},
+    {"artist": "Bryan Adams", "song": "Do What Ya Gotta Do", "album": "Get Up", "genre": "Jazz", "time": "4:43", "rating": "4", "albumId": "4"},
+    {"artist": "Bryan Adams", "song": "We Did It All", "album": "Get Up", "genre": "Rock", "time": "3:36", "rating": "5", "albumId": "4"},
+    {"artist": "Bryan Adams", "song": "Go Down Rockin", "album": "Get Up", "genre": "Pop", "time": "3:20", "rating": "3", "albumId": "4"},
+    {"artist": "Bryan Adams", "song": "You Belong to Me", "album": "Get Up", "genre": "Other", "time": "3:49", "rating": "4", "albumId": "4"}
 ];
 
 let favdiv = document.getElementById("fav-albums-area");
